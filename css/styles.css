@@ -1,0 +1,12 @@
+@import url(./basic-styles.css);
+
+.container {
+display: grid;
+grid-template-columns: repeat(4, 150px);
+grid-template-rows: repeat(3, 150px);
+border: 10px solid black;
+justify-content: end;
+
+}
+
+
